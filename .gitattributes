@@ -1,28 +1,28 @@
 # JavaScript e TypeScript
-*.js linguaggio=JavaScript
-*.jsx linguaggio=JavaScript
-*.ts linguaggio=TypeScript
-*.tsx linguaggio=TypeScript
+*.js linguist-detectable=true linguist-language=JavaScript
+*.jsx linguist-detectable=true linguist-language=JavaScript
+*.ts linguist-detectable=true linguist-language=TypeScript
+*.tsx linguist-detectable=true linguist-language=TypeScript
 
 # Vue.js (se lo usi)
-*.vue linguaggio=Vue
+*.vue linguist-detectable=true linguist-language=Vue
 
 # CSS e Tailwind
-*.css linguaggio=CSS
-*.scss linguaggio=CSS
-*.tailwind.css linguaggio=CSS
+*.css linguist-detectable=true linguist-language=CSS
+*.scss linguist-detectable=true linguist-language=CSS
+*.tailwind.css linguist-detectable=true linguist-language=CSS
 
 # Configurazioni per Next.js e Vite
-vite.config.js linguaggio=JavaScript
-next.config.js linguaggio=JavaScript
-next.config.ts linguaggio=TypeScript
+vite.config.js linguist-detectable=true linguist-language=JavaScript
+next.config.js linguist-detectable=true linguist-language=JavaScript
+next.config.ts linguist-detectable=true linguist-language=TypeScript
 
 # Configurazioni per Tailwind
-tailwind.config.js linguaggio=JavaScript
-tailwind.config.ts linguaggio=TypeScript
+tailwind.config.js linguist-detectable=true linguist-language=JavaScript
+tailwind.config.ts linguist-detectable=true linguist-language=TypeScript
 
 # Ignora file o cartelle non rilevanti
-node_modules/* linguaggio=ignora
-dist/* linguaggio=ignora
-build/* linguaggio=ignora
-public/* linguaggio=ignora
+node_modules/* linguist-vendored
+dist/* linguist-vendored
+build/* linguist-vendored
+public/* linguist-vendored
