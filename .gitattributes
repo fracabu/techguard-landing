@@ -1,28 +1,52 @@
-# JavaScript e TypeScript
-*.js linguist-detectable=true linguist-language=JavaScript
-*.jsx linguist-detectable=true linguist-language=JavaScript
-*.ts linguist-detectable=true linguist-language=TypeScript
-*.tsx linguist-detectable=true linguist-language=TypeScript
+# Auto detect text files and perform LF normalization
+* text=auto
 
-# Vue.js (se lo usi)
-*.vue linguist-detectable=true linguist-language=Vue
+# TypeScript files
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
 
-# CSS e Tailwind
-*.css linguist-detectable=true linguist-language=CSS
-*.scss linguist-detectable=true linguist-language=CSS
-*.tailwind.css linguist-detectable=true linguist-language=CSS
+# JavaScript files
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+*.mjs linguist-language=JavaScript
 
-# Configurazioni per Next.js e Vite
-vite.config.js linguist-detectable=true linguist-language=JavaScript
-next.config.js linguist-detectable=true linguist-language=JavaScript
-next.config.ts linguist-detectable=true linguist-language=TypeScript
+# Style files
+*.css linguist-language=CSS
+*.scss linguist-language=SCSS
 
-# Configurazioni per Tailwind
-tailwind.config.js linguist-detectable=true linguist-language=JavaScript
-tailwind.config.ts linguist-detectable=true linguist-language=TypeScript
+# Documentation
+*.md text
+*.mdx text
+*.txt text
 
-# Ignora file o cartelle non rilevanti
-node_modules/* linguist-vendored
-dist/* linguist-vendored
-build/* linguist-vendored
-public/* linguist-vendored
+# Configuration files
+*.json text
+*.yaml text
+*.yml text
+*.config.js text
+*.config.ts text
+
+# Next.js specific
+next.config.* linguist-language=JavaScript
+next-env.d.ts linguist-language=TypeScript
+
+# Binary files
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.svg text
+
+# Lock files
+package-lock.json binary
+yarn.lock binary
+pnpm-lock.yaml binary
+
+# Enforce Unix line endings
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.md text eol=lf
